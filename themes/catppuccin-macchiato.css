@@ -1,0 +1,35 @@
+body.catppuccin-macchiato {
+  --accent: #8aadf4;
+  --accent-overlay: #c6a0f6;
+  --navbar-accent: #cad3f5;
+  --background: #24273a;
+  --body-background: var(--background);
+  --background-darker: #181926;
+  --current-background: var(--body-background);
+  --navbar-background: #1e2030;
+  --navbar-active-background: #5b6078;
+  --gradient-body-background: linear-gradient(
+    90deg,
+    var(--background-darker) -32px,
+    var(--body-background) 64px,
+    var(--body-background) 100%
+  );
+  --input-background: #363a4f;
+  --modal-background: var(--body-background);
+  --modal-border: var(--accent);
+  --success: #a6da95;
+  --success-hover: #8bd5ca;
+  --primary: #8aadf4;
+  --primary-hover: #7dc4e4;
+  --danger: #ed8796;
+  --text-log: #eed49f;
+  --text-title: #8aadf4;
+  --text-default: #cad3f5;
+  --text-secondary: #a5adcb;
+  --osk-background: var(--body-background);
+  --osk-button-background: var(--input-background);
+  --osk-button-border: var(--navbar-background);
+  --action-icon: var(--text-default);
+  --action-icon-hover: var(--accent-overlay);
+  --action-icon-active: var(--accent);
+}

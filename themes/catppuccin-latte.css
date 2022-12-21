@@ -1,0 +1,35 @@
+body.catppuccin-latte {
+  --accent: #1e66f5;
+  --accent-overlay: #8839ef;
+  --navbar-accent: #4c4f69;
+  --background: #eff1f5;
+  --body-background: var(--background);
+  --background-darker: #dce0e8;
+  --current-background: var(--body-background);
+  --navbar-background: #e6e9ef;
+  --navbar-active-background: #acb0be;
+  --gradient-body-background: linear-gradient(
+    90deg,
+    var(--background-darker) -32px,
+    var(--body-background) 64px,
+    var(--body-background) 100%
+  );
+  --input-background: #ccd0da;
+  --modal-background: var(--body-background);
+  --modal-border: var(--accent);
+  --success: #40a02b;
+  --success-hover: #179299;
+  --primary: #1e66f5;
+  --primary-hover: #209fb5;
+  --danger: #d20f39;
+  --text-log: #df8e1d;
+  --text-title: #1e66f5;
+  --text-default: #4c4f69;
+  --text-secondary: #6c6f85;
+  --osk-background: var(--body-background);
+  --osk-button-background: var(--input-background);
+  --osk-button-border: var(--navbar-background);
+  --action-icon: var(--text-default);
+  --action-icon-hover: var(--accent-overlay);
+  --action-icon-active: var(--accent);
+}

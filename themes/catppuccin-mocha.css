@@ -1,0 +1,35 @@
+body.catppuccin-mocha {
+  --accent: #89b4fa;
+  --accent-overlay: #cba6f7;
+  --navbar-accent: #cdd6f4;
+  --background: #1e1e2e;
+  --body-background: var(--background);
+  --background-darker: #11111b;
+  --current-background: var(--body-background);
+  --navbar-background: #181825;
+  --navbar-active-background: #585b70;
+  --gradient-body-background: linear-gradient(
+    90deg,
+    var(--background-darker) -32px,
+    var(--body-background) 64px,
+    var(--body-background) 100%
+  );
+  --input-background: #313244;
+  --modal-background: var(--body-background);
+  --modal-border: var(--accent);
+  --success: #a6e3a1;
+  --success-hover: #94e2d5;
+  --primary: #89b4fa;
+  --primary-hover: #74c7ec;
+  --danger: #f38ba8;
+  --text-log: #f9e2af;
+  --text-title: #89b4fa;
+  --text-default: #cdd6f4;
+  --text-secondary: #a6adc8;
+  --osk-background: var(--body-background);
+  --osk-button-background: var(--input-background);
+  --osk-button-border: var(--navbar-background);
+  --action-icon: var(--text-default);
+  --action-icon-hover: var(--accent-overlay);
+  --action-icon-active: var(--accent);
+}
