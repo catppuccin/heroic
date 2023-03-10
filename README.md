@@ -6,32 +6,32 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/ndsboy/heroic/stargazers"><img src="https://img.shields.io/github/stars/ndsboy/heroic?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/ndsboy/heroic/issues"><img src="https://img.shields.io/github/issues/ndsboy/heroic?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/ndsboy/heroic/contributors"><img src="https://img.shields.io/github/contributors/ndsboy/heroic?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/heroic/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/heroic?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/heroic/issues"><img src="https://img.shields.io/github/issues/catppuccin/heroic?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/heroic/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/heroic?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="https://github.com/ndsboy/heroic/blob/main/assets/preview.png"/>
+	<img src="https://github.com/catppuccin/heroic/blob/main/assets/preview.png"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://github.com/ndsboy/heroic/blob/main/assets/latte.png"/>
+<img src="https://github.com/catppuccin/heroic/blob/main/assets/latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://github.com/ndsboy/heroic/blob/main/assets/frappe.png"/>
+<img src="https://github.com/catppuccin/heroic/blob/main/assets/frappe.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://github.com/ndsboy/heroic/blob/main/assets/macchiato.png"/>
+<img src="https://github.com/catppuccin/heroic/blob/main/assets/macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://github.com/ndsboy/heroic/blob/main/assets/mocha.png"/>
+<img src="https://github.com/catppuccin/heroic/blob/main/assets/mocha.png"/>
 </details>
 
 ## Usage
@@ -39,7 +39,7 @@
 1. Clone this repository locally
 
    ```shell
-   git clone https://github.com/ndsboy/heroic.git
+   git clone https://github.com/catppuccin/heroic.git
    ```
 
 2. Open the Heroic Games Launcher
