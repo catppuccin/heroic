@@ -4,9 +4,9 @@ body.catppuccin-latte {
   --navbar-accent: #4c4f69;
   --background: #eff1f5;
   --body-background: var(--background);
-  --background-darker: #dce0e8;
+  --background-darker: var(--background);
   --current-background: var(--body-background);
-  --navbar-background: #e6e9ef;
+  --navbar-background: #dce0e8;
   --navbar-active-background: #acb0be;
   --gradient-body-background: linear-gradient(
     90deg,

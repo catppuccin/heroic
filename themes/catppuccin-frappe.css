@@ -4,9 +4,9 @@ body.catppuccin-frappe {
   --navbar-accent: #c6d0f5;
   --background: #303446;
   --body-background: var(--background);
-  --background-darker: #232634;
+  --background-darker: var(--background);
   --current-background: var(--body-background);
-  --navbar-background: #292c3c;
+  --navbar-background: #232634;
   --navbar-active-background: #626880;
   --gradient-body-background: linear-gradient(
     90deg,

@@ -4,9 +4,9 @@ body.catppuccin-macchiato {
   --navbar-accent: #cad3f5;
   --background: #24273a;
   --body-background: var(--background);
-  --background-darker: #181926;
+  --background-darker: var(--background);
   --current-background: var(--body-background);
-  --navbar-background: #1e2030;
+  --navbar-background: #181926;
   --navbar-active-background: #5b6078;
   --gradient-body-background: linear-gradient(
     90deg,
