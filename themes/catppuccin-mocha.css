@@ -4,9 +4,9 @@ body.catppuccin-mocha {
   --navbar-accent: #cdd6f4;
   --background: #1e1e2e;
   --body-background: var(--background);
-  --background-darker: #11111b;
+  --background-darker: var(--background);
   --current-background: var(--body-background);
-  --navbar-background: #181825;
+  --navbar-background: #11111b;
   --navbar-active-background: #585b70;
   --gradient-body-background: linear-gradient(
     90deg,
