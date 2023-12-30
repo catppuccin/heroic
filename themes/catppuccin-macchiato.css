@@ -1,35 +1,69 @@
 body.catppuccin-macchiato {
-  --accent: #8aadf4;
-  --accent-overlay: #c6a0f6;
-  --navbar-accent: #cad3f5;
+  --text-default: #cad3f5;
+  --text-secondary: #b8c0e0;
+  --text-tertiary: #181926;
+
   --background: #24273a;
-  --body-background: var(--background);
-  --background-darker: var(--background);
-  --current-background: var(--body-background);
-  --navbar-background: #181926;
-  --navbar-active-background: #5b6078;
-  --gradient-body-background: linear-gradient(
-    90deg,
-    var(--background-darker) -32px,
-    var(--body-background) 64px,
-    var(--body-background) 100%
-  );
+  --background-darker: #1e2030;
+  --background-lighter: #363a4f;
+  --body-background: #24273a;
+  --gradient-body-background: #24273a;
   --input-background: #363a4f;
-  --modal-background: var(--body-background);
-  --modal-border: var(--accent);
+  --controller-hints-background: transparent;
+  --current-background: #24273a;
+  --modal-background: #181926;
+  --modal-border: #8aadf4;
+  --osk-background: #24273a;
+  --osk-button-background: #363a4f;
+  --osk-button-border: #181926;
+  --search-bar-background: #363a4f;
+  --search-bar-border: #363a4f;
+
+  --action-icon: #cad3f5;
+  --action-icon-hover: #c6a0f6;
+  --action-icon-active: #8aadf4;
+  --icons-background: #24273a;
+
+  --primary-button: #8aadf4;
+  --primary-button-overlay: #7dc4e4;
+  --secondary-button: #c6a0f6;
+  --secondary-button-overlay: #f5bde6;
+  --tertiary-button: #eed49f;
+  --tertiary-button-overlay: #f5a97f;
+  --success-button: #a6da95;
+  --disabled-button: #1e2030;
+  --disabled-button-overlay: #181926;
+
+  --navbar-active: #8aadf4;
+  --navbar-inactive: #cad3f5;
+  --navbar-active-background: #363a4f;
+  --navbar-accent: #c6a0f6;
+  --navbar-background: #1e2030;
+  --divider: #1e2030;
+
   --success: #a6da95;
   --success-hover: #8bd5ca;
+  --danger: #eed49f;
+  --danger-hover: #f5a97f;
+
   --primary: #8aadf4;
-  --primary-hover: #7dc4e4;
-  --danger: #ed8796;
-  --text-log: #eed49f;
-  --text-title: #8aadf4;
-  --text-default: #cad3f5;
-  --text-secondary: #a5adcb;
-  --osk-background: var(--body-background);
-  --osk-button-background: var(--input-background);
-  --osk-button-border: var(--navbar-background);
-  --action-icon: var(--text-default);
-  --action-icon-hover: var(--accent-overlay);
-  --action-icon-active: var(--accent);
+  --secondary: #c6a0f6;
+  --accent: #8aadf4;
+
+  --status-success: #a6da95;
+  --status-warning: #eed49f;
+  --status-danger: #ed8796;
+  --status-info: #8aadf4;
+
+  --neutral-01: #181926;
+  --neutral-02: #24273a;
+  --neutral-03: #363a4f;
+  --neutral-04: #6e738d;
+  --neutral-05: #a5adcb;
+  --neutral-06: #cad3f5;
+}
+
+body.catppuccin-macchiato select,
+body.catppuccin-macchiato input {
+  box-shadow: none !important;
 }

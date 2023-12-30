@@ -1,35 +1,69 @@
 body.catppuccin-frappe {
-  --accent: #8caaee;
-  --accent-overlay: #ca9ee6;
-  --navbar-accent: #c6d0f5;
+  --text-default: #c6d0f5;
+  --text-secondary: #b5bfe2;
+  --text-tertiary: #232634;
+
   --background: #303446;
-  --body-background: var(--background);
-  --background-darker: var(--background);
-  --current-background: var(--body-background);
-  --navbar-background: #232634;
-  --navbar-active-background: #626880;
-  --gradient-body-background: linear-gradient(
-    90deg,
-    var(--background-darker) -32px,
-    var(--body-background) 64px,
-    var(--body-background) 100%
-  );
+  --background-darker: #292c3c;
+  --background-lighter: #414559;
+  --body-background: #303446;
+  --gradient-body-background: #303446;
   --input-background: #414559;
-  --modal-background: var(--body-background);
-  --modal-border: var(--accent);
+  --controller-hints-background: transparent;
+  --current-background: #303446;
+  --modal-background: #232634;
+  --modal-border: #8caaee;
+  --osk-background: #303446;
+  --osk-button-background: #414559;
+  --osk-button-border: #232634;
+  --search-bar-background: #414559;
+  --search-bar-border: #414559;
+
+  --action-icon: #c6d0f5;
+  --action-icon-hover: #ca9ee6;
+  --action-icon-active: #8caaee;
+  --icons-background: #303446;
+
+  --primary-button: #8caaee;
+  --primary-button-overlay: #85c1dc;
+  --secondary-button: #ca9ee6;
+  --secondary-button-overlay: #f4b8e4;
+  --tertiary-button: #e5c890;
+  --tertiary-button-overlay: #ef9f76;
+  --success-button: #a6d189;
+  --disabled-button: #292c3c;
+  --disabled-button-overlay: #232634;
+
+  --navbar-active: #8caaee;
+  --navbar-inactive: #c6d0f5;
+  --navbar-active-background: #414559;
+  --navbar-accent: #ca9ee6;
+  --navbar-background: #292c3c;
+  --divider: #292c3c;
+
   --success: #a6d189;
   --success-hover: #81c8be;
+  --danger: #e5c890;
+  --danger-hover: #ef9f76;
+
   --primary: #8caaee;
-  --primary-hover: #85c1dc;
-  --danger: #e78284;
-  --text-log: #e5c890;
-  --text-title: #8caaee;
-  --text-default: #c6d0f5;
-  --text-secondary: #a5adce;
-  --osk-background: var(--body-background);
-  --osk-button-background: var(--input-background);
-  --osk-button-border: var(--navbar-background);
-  --action-icon: var(--text-default);
-  --action-icon-hover: var(--accent-overlay);
-  --action-icon-active: var(--accent);
+  --secondary: #ca9ee6;
+  --accent: #8caaee;
+
+  --status-success: #a6d189;
+  --status-warning: #e5c890;
+  --status-danger: #e78284;
+  --status-info: #8caaee;
+
+  --neutral-01: #232634;
+  --neutral-02: #303446;
+  --neutral-03: #414559;
+  --neutral-04: #737994;
+  --neutral-05: #a5adce;
+  --neutral-06: #c6d0f5;
+}
+
+body.catppuccin-frappe select,
+body.catppuccin-frappe input {
+  box-shadow: none !important;
 }
