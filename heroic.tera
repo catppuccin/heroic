@@ -1,0 +1,77 @@
+---
+whiskers:
+  version: "2.0.0"
+  filename: "themes/catppuccin-{{flavor.identifier}}.css"
+  matrix:
+    - flavor
+---
+
+body.catppuccin-{{flavor.identifier}} {
+  --text-default: #{{flavor.colors.text.hex}};
+  --text-secondary: #{{flavor.colors.subtext1.hex}};
+  --text-tertiary: #{{flavor.colors.crust.hex}};
+
+  --background: #{{flavor.colors.base.hex}};
+  --background-darker: #{{flavor.colors.mantle.hex}};
+  --background-lighter: #{{flavor.colors.surface0.hex}};
+  --body-background: #{{flavor.colors.base.hex}};
+  --gradient-body-background: #{{flavor.colors.base.hex}};
+  --input-background: #{{flavor.colors.surface0.hex}};
+  --controller-hints-background: transparent;
+  --current-background: #{{flavor.colors.base.hex}};
+  --modal-background: #{{flavor.colors.crust.hex}};
+  --modal-border: #{{flavor.colors.blue.hex}};
+  --osk-background: #{{flavor.colors.base.hex}};
+  --osk-button-background: #{{flavor.colors.surface0.hex}};
+  --osk-button-border: #{{flavor.colors.crust.hex}};
+  --search-bar-background: #{{flavor.colors.surface0.hex}};
+  --search-bar-border: #{{flavor.colors.surface0.hex}};
+
+  --action-icon: #{{flavor.colors.text.hex}};
+  --action-icon-hover: #{{flavor.colors.mauve.hex}};
+  --action-icon-active: #{{flavor.colors.blue.hex}};
+  --icons-background: #{{flavor.colors.base.hex}};
+
+  --primary-button: #{{flavor.colors.blue.hex}};
+  --primary-button-overlay: #{{flavor.colors.sapphire.hex}};
+  --secondary-button: #{{flavor.colors.mauve.hex}};
+  --secondary-button-overlay: #{{flavor.colors.pink.hex}};
+  --tertiary-button: #{{flavor.colors.yellow.hex}};
+  --tertiary-button-overlay: #{{flavor.colors.peach.hex}};
+  --success-button: #{{flavor.colors.green.hex}};
+  --disabled-button: #{{flavor.colors.mantle.hex}};
+  --disabled-button-overlay: #{{flavor.colors.crust.hex}};
+
+  --navbar-active: #{{flavor.colors.blue.hex}};
+  --navbar-inactive: #{{flavor.colors.text.hex}};
+  --navbar-active-background: #{{flavor.colors.surface0.hex}};
+  --navbar-accent: #{{flavor.colors.mauve.hex}};
+  --navbar-background: #{{flavor.colors.mantle.hex}};
+  --divider: #{{flavor.colors.mantle.hex}};
+
+  --success: #{{flavor.colors.green.hex}};
+  --success-hover: #{{flavor.colors.teal.hex}};
+  --danger: #{{flavor.colors.yellow.hex}};
+  --danger-hover: #{{flavor.colors.peach.hex}};
+
+  --primary: #{{flavor.colors.blue.hex}};
+  --secondary: #{{flavor.colors.mauve.hex}};
+  --accent: #{{flavor.colors.blue.hex}};
+
+  --status-success: #{{flavor.colors.green.hex}};
+  --status-warning: #{{flavor.colors.yellow.hex}};
+  --status-danger: #{{flavor.colors.red.hex}};
+  --status-info: #{{flavor.colors.blue.hex}};
+
+  --neutral-01: #{{flavor.colors.crust.hex}};
+  --neutral-02: #{{flavor.colors.base.hex}};
+  --neutral-03: #{{flavor.colors.surface0.hex}};
+  --neutral-04: #{{flavor.colors.overlay0.hex}};
+  --neutral-05: #{{flavor.colors.subtext0.hex}};
+  --neutral-06: #{{flavor.colors.text.hex}};
+}
+
+body.catppuccin-{{flavor.identifier}} select,
+body.catppuccin-{{flavor.identifier}} input {
+  box-shadow: none !important;
+}
