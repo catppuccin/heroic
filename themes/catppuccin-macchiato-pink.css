@@ -1,0 +1,72 @@
+body.catppuccin-macchiato-pink {
+  --text-default: #cad3f5;
+  --text-secondary: #b8c0e0;
+  --text-tertiary: #181926;
+
+  --background: #24273a;
+  --background-darker: #1e2030;
+  --background-lighter: #363a4f;
+  --body-background: #24273a;
+  --gradient-body-background: #24273a;
+  --input-background: #363a4f;
+  --controller-hints-background: transparent;
+  --current-background: #24273a;
+  --modal-background: #181926;
+  --modal-border: #f5bde6;
+  --osk-background: #24273a;
+  --osk-button-background: #363a4f;
+  --osk-button-border: #181926;
+  --search-bar-background: #363a4f;
+  --search-bar-border: #363a4f;
+
+  --action-icon: #cad3f5;
+  --action-icon-hover: #6e738d;
+  --action-icon-active: #f5bde6;
+  --icons-background: #24273a;
+
+  --brand-primary: #f5bde6;
+  --brand-primary-hover: #6e738d;
+
+  --primary-button: #f5bde6;
+  --primary-button-overlay: #f5bde6;
+  --secondary-button: #f5bde6;
+  --secondary-button-overlay: #f5bde6;
+  --tertiary-button: #f5bde6;
+  --tertiary-button-overlay: #f5bde6;
+  --success-button: #a6da95;
+  --disabled-button: #1e2030;
+  --disabled-button-overlay: #181926;
+
+  --navbar-active: #f5bde6;
+  --navbar-inactive: #cad3f5;
+  --navbar-active-background: #363a4f;
+  --navbar-accent: #f5bde6;
+  --navbar-background: #1e2030;
+  --divider: #1e2030;
+
+  --success: #a6da95;
+  --success-hover: #6e738d;
+  --danger: #eed49f;
+  --danger-hover: #6e738d;
+
+  --primary: #f5bde6;
+  --secondary: #f5bde6;
+  --accent: #f5bde6;
+
+  --status-success: #a6da95;
+  --status-warning: #eed49f;
+  --status-danger: #ed8796;
+  --status-info: #f5bde6;
+
+  --neutral-01: #181926;
+  --neutral-02: #24273a;
+  --neutral-03: #363a4f;
+  --neutral-04: #6e738d;
+  --neutral-05: #a5adcb;
+  --neutral-06: #cad3f5;
+}
+
+body.catppuccin-macchiato-pink select,
+body.catppuccin-macchiato-pink input {
+  box-shadow: none !important;
+}

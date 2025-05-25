@@ -1,4 +1,4 @@
-body.catppuccin-macchiato {
+body.catppuccin-macchiato-blue {
   --text-default: #cad3f5;
   --text-secondary: #b8c0e0;
   --text-tertiary: #181926;
@@ -20,16 +20,19 @@ body.catppuccin-macchiato {
   --search-bar-border: #363a4f;
 
   --action-icon: #cad3f5;
-  --action-icon-hover: #c6a0f6;
+  --action-icon-hover: #6e738d;
   --action-icon-active: #8aadf4;
   --icons-background: #24273a;
 
+  --brand-primary: #8aadf4;
+  --brand-primary-hover: #6e738d;
+
   --primary-button: #8aadf4;
-  --primary-button-overlay: #7dc4e4;
-  --secondary-button: #c6a0f6;
-  --secondary-button-overlay: #f5bde6;
-  --tertiary-button: #eed49f;
-  --tertiary-button-overlay: #f5a97f;
+  --primary-button-overlay: #8aadf4;
+  --secondary-button: #8aadf4;
+  --secondary-button-overlay: #8aadf4;
+  --tertiary-button: #8aadf4;
+  --tertiary-button-overlay: #8aadf4;
   --success-button: #a6da95;
   --disabled-button: #1e2030;
   --disabled-button-overlay: #181926;
@@ -37,17 +40,17 @@ body.catppuccin-macchiato {
   --navbar-active: #8aadf4;
   --navbar-inactive: #cad3f5;
   --navbar-active-background: #363a4f;
-  --navbar-accent: #c6a0f6;
+  --navbar-accent: #8aadf4;
   --navbar-background: #1e2030;
   --divider: #1e2030;
 
   --success: #a6da95;
-  --success-hover: #8bd5ca;
+  --success-hover: #6e738d;
   --danger: #eed49f;
-  --danger-hover: #f5a97f;
+  --danger-hover: #6e738d;
 
   --primary: #8aadf4;
-  --secondary: #c6a0f6;
+  --secondary: #8aadf4;
   --accent: #8aadf4;
 
   --status-success: #a6da95;
@@ -63,7 +66,7 @@ body.catppuccin-macchiato {
   --neutral-06: #cad3f5;
 }
 
-body.catppuccin-macchiato select,
-body.catppuccin-macchiato input {
+body.catppuccin-macchiato-blue select,
+body.catppuccin-macchiato-blue input {
   box-shadow: none !important;
 }
