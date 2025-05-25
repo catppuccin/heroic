@@ -1,0 +1,72 @@
+body.catppuccin-latte-rosewater {
+  --text-default: #4c4f69;
+  --text-secondary: #5c5f77;
+  --text-tertiary: #dce0e8;
+
+  --background: #eff1f5;
+  --background-darker: #e6e9ef;
+  --background-lighter: #ccd0da;
+  --body-background: #eff1f5;
+  --gradient-body-background: #eff1f5;
+  --input-background: #ccd0da;
+  --controller-hints-background: transparent;
+  --current-background: #eff1f5;
+  --modal-background: #dce0e8;
+  --modal-border: #dc8a78;
+  --osk-background: #eff1f5;
+  --osk-button-background: #ccd0da;
+  --osk-button-border: #dce0e8;
+  --search-bar-background: #ccd0da;
+  --search-bar-border: #ccd0da;
+
+  --action-icon: #4c4f69;
+  --action-icon-hover: #9ca0b0;
+  --action-icon-active: #dc8a78;
+  --icons-background: #eff1f5;
+
+  --brand-primary: #dc8a78;
+  --brand-primary-hover: #9ca0b0;
+
+  --primary-button: #dc8a78;
+  --primary-button-overlay: #dc8a78;
+  --secondary-button: #dc8a78;
+  --secondary-button-overlay: #dc8a78;
+  --tertiary-button: #dc8a78;
+  --tertiary-button-overlay: #dc8a78;
+  --success-button: #40a02b;
+  --disabled-button: #e6e9ef;
+  --disabled-button-overlay: #dce0e8;
+
+  --navbar-active: #dc8a78;
+  --navbar-inactive: #4c4f69;
+  --navbar-active-background: #ccd0da;
+  --navbar-accent: #dc8a78;
+  --navbar-background: #e6e9ef;
+  --divider: #e6e9ef;
+
+  --success: #40a02b;
+  --success-hover: #9ca0b0;
+  --danger: #df8e1d;
+  --danger-hover: #9ca0b0;
+
+  --primary: #dc8a78;
+  --secondary: #dc8a78;
+  --accent: #dc8a78;
+
+  --status-success: #40a02b;
+  --status-warning: #df8e1d;
+  --status-danger: #d20f39;
+  --status-info: #dc8a78;
+
+  --neutral-01: #dce0e8;
+  --neutral-02: #eff1f5;
+  --neutral-03: #ccd0da;
+  --neutral-04: #9ca0b0;
+  --neutral-05: #6c6f85;
+  --neutral-06: #4c4f69;
+}
+
+body.catppuccin-latte-rosewater select,
+body.catppuccin-latte-rosewater input {
+  box-shadow: none !important;
+}

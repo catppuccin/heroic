@@ -1,4 +1,4 @@
-body.catppuccin-frappe {
+body.catppuccin-frappe-rosewater {
   --text-default: #c6d0f5;
   --text-secondary: #b5bfe2;
   --text-tertiary: #232634;
@@ -12,7 +12,7 @@ body.catppuccin-frappe {
   --controller-hints-background: transparent;
   --current-background: #303446;
   --modal-background: #232634;
-  --modal-border: #8caaee;
+  --modal-border: #f2d5cf;
   --osk-background: #303446;
   --osk-button-background: #414559;
   --osk-button-border: #232634;
@@ -20,40 +20,43 @@ body.catppuccin-frappe {
   --search-bar-border: #414559;
 
   --action-icon: #c6d0f5;
-  --action-icon-hover: #ca9ee6;
-  --action-icon-active: #8caaee;
+  --action-icon-hover: #737994;
+  --action-icon-active: #f2d5cf;
   --icons-background: #303446;
 
-  --primary-button: #8caaee;
-  --primary-button-overlay: #85c1dc;
-  --secondary-button: #ca9ee6;
-  --secondary-button-overlay: #f4b8e4;
-  --tertiary-button: #e5c890;
-  --tertiary-button-overlay: #ef9f76;
+  --brand-primary: #f2d5cf;
+  --brand-primary-hover: #737994;
+
+  --primary-button: #f2d5cf;
+  --primary-button-overlay: #f2d5cf;
+  --secondary-button: #f2d5cf;
+  --secondary-button-overlay: #f2d5cf;
+  --tertiary-button: #f2d5cf;
+  --tertiary-button-overlay: #f2d5cf;
   --success-button: #a6d189;
   --disabled-button: #292c3c;
   --disabled-button-overlay: #232634;
 
-  --navbar-active: #8caaee;
+  --navbar-active: #f2d5cf;
   --navbar-inactive: #c6d0f5;
   --navbar-active-background: #414559;
-  --navbar-accent: #ca9ee6;
+  --navbar-accent: #f2d5cf;
   --navbar-background: #292c3c;
   --divider: #292c3c;
 
   --success: #a6d189;
-  --success-hover: #81c8be;
+  --success-hover: #737994;
   --danger: #e5c890;
-  --danger-hover: #ef9f76;
+  --danger-hover: #737994;
 
-  --primary: #8caaee;
-  --secondary: #ca9ee6;
-  --accent: #8caaee;
+  --primary: #f2d5cf;
+  --secondary: #f2d5cf;
+  --accent: #f2d5cf;
 
   --status-success: #a6d189;
   --status-warning: #e5c890;
   --status-danger: #e78284;
-  --status-info: #8caaee;
+  --status-info: #f2d5cf;
 
   --neutral-01: #232634;
   --neutral-02: #303446;
@@ -63,7 +66,7 @@ body.catppuccin-frappe {
   --neutral-06: #c6d0f5;
 }
 
-body.catppuccin-frappe select,
-body.catppuccin-frappe input {
+body.catppuccin-frappe-rosewater select,
+body.catppuccin-frappe-rosewater input {
   box-shadow: none !important;
 }

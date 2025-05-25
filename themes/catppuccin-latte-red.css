@@ -1,4 +1,4 @@
-body.catppuccin-latte {
+body.catppuccin-latte-red {
   --text-default: #4c4f69;
   --text-secondary: #5c5f77;
   --text-tertiary: #dce0e8;
@@ -12,7 +12,7 @@ body.catppuccin-latte {
   --controller-hints-background: transparent;
   --current-background: #eff1f5;
   --modal-background: #dce0e8;
-  --modal-border: #1e66f5;
+  --modal-border: #d20f39;
   --osk-background: #eff1f5;
   --osk-button-background: #ccd0da;
   --osk-button-border: #dce0e8;
@@ -20,40 +20,43 @@ body.catppuccin-latte {
   --search-bar-border: #ccd0da;
 
   --action-icon: #4c4f69;
-  --action-icon-hover: #8839ef;
-  --action-icon-active: #1e66f5;
+  --action-icon-hover: #9ca0b0;
+  --action-icon-active: #d20f39;
   --icons-background: #eff1f5;
 
-  --primary-button: #1e66f5;
-  --primary-button-overlay: #209fb5;
-  --secondary-button: #8839ef;
-  --secondary-button-overlay: #ea76cb;
-  --tertiary-button: #df8e1d;
-  --tertiary-button-overlay: #fe640b;
+  --brand-primary: #d20f39;
+  --brand-primary-hover: #9ca0b0;
+
+  --primary-button: #d20f39;
+  --primary-button-overlay: #d20f39;
+  --secondary-button: #d20f39;
+  --secondary-button-overlay: #d20f39;
+  --tertiary-button: #d20f39;
+  --tertiary-button-overlay: #d20f39;
   --success-button: #40a02b;
   --disabled-button: #e6e9ef;
   --disabled-button-overlay: #dce0e8;
 
-  --navbar-active: #1e66f5;
+  --navbar-active: #d20f39;
   --navbar-inactive: #4c4f69;
   --navbar-active-background: #ccd0da;
-  --navbar-accent: #8839ef;
+  --navbar-accent: #d20f39;
   --navbar-background: #e6e9ef;
   --divider: #e6e9ef;
 
   --success: #40a02b;
-  --success-hover: #179299;
+  --success-hover: #9ca0b0;
   --danger: #df8e1d;
-  --danger-hover: #fe640b;
+  --danger-hover: #9ca0b0;
 
-  --primary: #1e66f5;
-  --secondary: #8839ef;
-  --accent: #1e66f5;
+  --primary: #d20f39;
+  --secondary: #d20f39;
+  --accent: #d20f39;
 
   --status-success: #40a02b;
   --status-warning: #df8e1d;
   --status-danger: #d20f39;
-  --status-info: #1e66f5;
+  --status-info: #d20f39;
 
   --neutral-01: #dce0e8;
   --neutral-02: #eff1f5;
@@ -63,7 +66,7 @@ body.catppuccin-latte {
   --neutral-06: #4c4f69;
 }
 
-body.catppuccin-latte select,
-body.catppuccin-latte input {
+body.catppuccin-latte-red select,
+body.catppuccin-latte-red input {
   box-shadow: none !important;
 }

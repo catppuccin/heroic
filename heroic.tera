@@ -1,12 +1,15 @@
 ---
 whiskers:
   version: "2.0.0"
-  filename: "themes/catppuccin-{{flavor.identifier}}.css"
+  filename: "themes/catppuccin-{{flavor.identifier}}-{{accent}}.css"
   matrix:
     - flavor
+    - accent
 ---
 
-body.catppuccin-{{flavor.identifier}} {
+{%- set accent = flavor.colors[accent] -%}
+
+body.catppuccin-{{flavor.identifier}}-{{accent.identifier}} {
   --text-default: #{{flavor.colors.text.hex}};
   --text-secondary: #{{flavor.colors.subtext1.hex}};
   --text-tertiary: #{{flavor.colors.crust.hex}};
@@ -20,7 +23,7 @@ body.catppuccin-{{flavor.identifier}} {
   --controller-hints-background: transparent;
   --current-background: #{{flavor.colors.base.hex}};
   --modal-background: #{{flavor.colors.crust.hex}};
-  --modal-border: #{{flavor.colors.blue.hex}};
+  --modal-border: #{{accent.hex}};
   --osk-background: #{{flavor.colors.base.hex}};
   --osk-button-background: #{{flavor.colors.surface0.hex}};
   --osk-button-border: #{{flavor.colors.crust.hex}};
@@ -28,40 +31,43 @@ body.catppuccin-{{flavor.identifier}} {
   --search-bar-border: #{{flavor.colors.surface0.hex}};
 
   --action-icon: #{{flavor.colors.text.hex}};
-  --action-icon-hover: #{{flavor.colors.mauve.hex}};
-  --action-icon-active: #{{flavor.colors.blue.hex}};
+  --action-icon-hover: #{{flavor.colors.overlay0.hex}};
+  --action-icon-active: #{{accent.hex}};
   --icons-background: #{{flavor.colors.base.hex}};
 
-  --primary-button: #{{flavor.colors.blue.hex}};
-  --primary-button-overlay: #{{flavor.colors.sapphire.hex}};
-  --secondary-button: #{{flavor.colors.mauve.hex}};
-  --secondary-button-overlay: #{{flavor.colors.pink.hex}};
-  --tertiary-button: #{{flavor.colors.yellow.hex}};
-  --tertiary-button-overlay: #{{flavor.colors.peach.hex}};
+  --brand-primary: #{{accent.hex}};
+  --brand-primary-hover: #{{flavor.colors.overlay0.hex}};
+
+  --primary-button: #{{accent.hex}};
+  --primary-button-overlay: #{{accent.hex}};
+  --secondary-button: #{{accent.hex}};
+  --secondary-button-overlay: #{{accent.hex}};
+  --tertiary-button: #{{accent.hex}};
+  --tertiary-button-overlay: #{{accent.hex}};
   --success-button: #{{flavor.colors.green.hex}};
   --disabled-button: #{{flavor.colors.mantle.hex}};
   --disabled-button-overlay: #{{flavor.colors.crust.hex}};
 
-  --navbar-active: #{{flavor.colors.blue.hex}};
+  --navbar-active: #{{accent.hex}};
   --navbar-inactive: #{{flavor.colors.text.hex}};
   --navbar-active-background: #{{flavor.colors.surface0.hex}};
-  --navbar-accent: #{{flavor.colors.mauve.hex}};
+  --navbar-accent: #{{accent.hex}};
   --navbar-background: #{{flavor.colors.mantle.hex}};
   --divider: #{{flavor.colors.mantle.hex}};
 
   --success: #{{flavor.colors.green.hex}};
-  --success-hover: #{{flavor.colors.teal.hex}};
+  --success-hover: #{{flavor.colors.overlay0.hex}};
   --danger: #{{flavor.colors.yellow.hex}};
-  --danger-hover: #{{flavor.colors.peach.hex}};
+  --danger-hover: #{{flavor.colors.overlay0.hex}};
 
-  --primary: #{{flavor.colors.blue.hex}};
-  --secondary: #{{flavor.colors.mauve.hex}};
-  --accent: #{{flavor.colors.blue.hex}};
+  --primary: #{{accent.hex}};
+  --secondary: #{{accent.hex}};
+  --accent: #{{accent.hex}};
 
   --status-success: #{{flavor.colors.green.hex}};
   --status-warning: #{{flavor.colors.yellow.hex}};
   --status-danger: #{{flavor.colors.red.hex}};
-  --status-info: #{{flavor.colors.blue.hex}};
+  --status-info: #{{accent.hex}};
 
   --neutral-01: #{{flavor.colors.crust.hex}};
   --neutral-02: #{{flavor.colors.base.hex}};
@@ -71,7 +77,7 @@ body.catppuccin-{{flavor.identifier}} {
   --neutral-06: #{{flavor.colors.text.hex}};
 }
 
-body.catppuccin-{{flavor.identifier}} select,
-body.catppuccin-{{flavor.identifier}} input {
+body.catppuccin-{{flavor.identifier}}-{{accent.identifier}} select,
+body.catppuccin-{{flavor.identifier}}-{{accent.identifier}} input {
   box-shadow: none !important;
 }

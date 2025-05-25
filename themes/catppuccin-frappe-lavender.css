@@ -1,0 +1,72 @@
+body.catppuccin-frappe-lavender {
+  --text-default: #c6d0f5;
+  --text-secondary: #b5bfe2;
+  --text-tertiary: #232634;
+
+  --background: #303446;
+  --background-darker: #292c3c;
+  --background-lighter: #414559;
+  --body-background: #303446;
+  --gradient-body-background: #303446;
+  --input-background: #414559;
+  --controller-hints-background: transparent;
+  --current-background: #303446;
+  --modal-background: #232634;
+  --modal-border: #babbf1;
+  --osk-background: #303446;
+  --osk-button-background: #414559;
+  --osk-button-border: #232634;
+  --search-bar-background: #414559;
+  --search-bar-border: #414559;
+
+  --action-icon: #c6d0f5;
+  --action-icon-hover: #737994;
+  --action-icon-active: #babbf1;
+  --icons-background: #303446;
+
+  --brand-primary: #babbf1;
+  --brand-primary-hover: #737994;
+
+  --primary-button: #babbf1;
+  --primary-button-overlay: #babbf1;
+  --secondary-button: #babbf1;
+  --secondary-button-overlay: #babbf1;
+  --tertiary-button: #babbf1;
+  --tertiary-button-overlay: #babbf1;
+  --success-button: #a6d189;
+  --disabled-button: #292c3c;
+  --disabled-button-overlay: #232634;
+
+  --navbar-active: #babbf1;
+  --navbar-inactive: #c6d0f5;
+  --navbar-active-background: #414559;
+  --navbar-accent: #babbf1;
+  --navbar-background: #292c3c;
+  --divider: #292c3c;
+
+  --success: #a6d189;
+  --success-hover: #737994;
+  --danger: #e5c890;
+  --danger-hover: #737994;
+
+  --primary: #babbf1;
+  --secondary: #babbf1;
+  --accent: #babbf1;
+
+  --status-success: #a6d189;
+  --status-warning: #e5c890;
+  --status-danger: #e78284;
+  --status-info: #babbf1;
+
+  --neutral-01: #232634;
+  --neutral-02: #303446;
+  --neutral-03: #414559;
+  --neutral-04: #737994;
+  --neutral-05: #a5adce;
+  --neutral-06: #c6d0f5;
+}
+
+body.catppuccin-frappe-lavender select,
+body.catppuccin-frappe-lavender input {
+  box-shadow: none !important;
+}

@@ -43,9 +43,9 @@
    ```
 
 2. Open the Heroic Games Launcher
-3. Go to Accessibility
-4. Set the Custom Themes Path to the cloned themes folder
-5. Choose your theme form the Select Theme dropdown menu
+3. Go to `Accessibility`
+4. Set the `Custom Themes Path` to the cloned themes folder
+5. Choose your theme from the `Select Theme` dropdown menu
 
 ## 💝 Thanks to
 
